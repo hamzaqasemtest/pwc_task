@@ -32,7 +32,13 @@ source venv/bin/activate
 pip install -r requirements.txt
 ```
 
-5. After installing dependencies, execute the app by running:
+5. use your API key inside the file langchain_integration.py`:
+
+```
+llm = OpenAI(api_key="change it to your key")
+```
+
+6. After installing dependencies, execute the app by running:
 
 ```
 streamlit run app.py
